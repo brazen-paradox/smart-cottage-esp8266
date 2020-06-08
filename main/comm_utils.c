@@ -354,7 +354,7 @@ int intimate_readiness_to_master(){
 
     if(!strcmp(received_data, "ROGER")){
         printf("\nReceived congruence from master. All systems go\n");
-        init_comm_port();
+        //init_comm_port();
     }
 
     return 1;

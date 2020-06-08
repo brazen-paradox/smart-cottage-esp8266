@@ -104,7 +104,7 @@ void app_main(){
         connect_to_access_point(wifi_ssid, wifi_password);
 
         //For slave comm port is iniitialized in on_ip_reception_callback of wifi utils
-        //init_comm_port();
+        init_comm_port();
 
     }
 
